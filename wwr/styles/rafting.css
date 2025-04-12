@@ -1,0 +1,101 @@
+:root {
+  --primary-colour: #3F826D;
+  --secondary-colour: #F0F4EF;
+  --accent1-colour: #B38A58;
+  --accent2-colour: #1B5299;
+  --heading-font: "Sriracha", sans-serif;
+  --body-font: "Monsterrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sriracha-regular {
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* use a value from 100 to 900 for weight */
+.montserrat-spicy {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--accent1-colour);
+}
+
+header,
+main,
+footer {
+  width: 840px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: var(--primary-colour);
+  color: var(--accent2-colour);
+}
+
+h1,
+h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-colour);
+}
+
+nav,
+p,
+section,
+article {
+  margin: 16px;
+  padding: 8px;
+}
+
+.socialmedia a {
+  text-decoration: none;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--accent1-colour);
+  color: black;
+}
+
+article {
+  top: 300px;
+  right: 0px;
+  position: absolute;
+  border: var(--accent2-colour) solid;
+  width: 500px;
+  padding: 5px 0;
+  text-align: center;
+  background-color: var(--accent2-colour);
+  opacity: 0.8;
+}
+
+.hero article img {
+  float: right;
+  width: 125px;
+  box-shadow: 2px 3px var(--primary-colour);
+}
