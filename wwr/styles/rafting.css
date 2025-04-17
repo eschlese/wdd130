@@ -388,3 +388,90 @@ button:hover {
 .form-adventures label, input {
   padding: 0.2rem;
 }
+
+.trips {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0;
+}
+
+.trips article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0.3rem;
+  padding: 0.2rem;
+  text-align: center;
+  background-color: var(--secondary-colour);
+  border-radius: 0.3rem;
+}
+
+.trips article img {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  border-radius: 0.3rem;
+}
+
+.trips article a {
+  text-decoration: none;
+  color: var(--secondary-colour);
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: var(--accent2-colour);
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+table {
+  width: 100%;
+  margin: 1rem auto;
+  border: 2px solid var(--accent1-colour)
+}
+
+th, td {
+  padding: 1rem;
+  text-align: center;
+}
+
+.name {
+  text-align: left;
+}
+
+.trips-banner {
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+
+.trips-banner img {
+  width: 100%;
+  height: auto;
+}
+
+.trips-banner article {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 824px;
+  height: auto;
+  top: 80px;
+  background-color: var(--secondary-colour);
+  align-items: center;
+  text-align: center;
+}
+
+.trips-banner article h2 {
+  color: var(--accent2-colour);
+}
+
+.trips-banner article a {
+  text-decoration: none;
+  color: var(--secondary-colour);
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: var(--accent2-colour);
+  border-radius: 0.5rem;
+  width: 30%;
+}
