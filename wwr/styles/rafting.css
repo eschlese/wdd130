@@ -215,7 +215,6 @@ li {
 .employees {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 400px 200px;
   background-color: var(--secondary-colour);
   margin-top: 1rem;
   margin-bottom: 1rem;
