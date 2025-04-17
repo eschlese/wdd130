@@ -189,3 +189,110 @@ footer {
 footer p {
   text-align: right;
 }
+
+ul {
+  list-style: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+li {
+  padding: 1rem;
+}
+
+.map {
+  position: relative;
+  height: 300px;
+}
+
+.map iframe {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.employees {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 400px 200px;
+  background-color: var(--secondary-colour);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.employees img {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+}
+
+.employees figcaption {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--primary-colour);
+}
+
+form {
+  width: 650px;
+  margin: 0 auto;
+  border: 1px solid var(--accent2-colour);
+  border-radius: 0.5rem;
+  background-color: var(--secondary-colour);
+  display: grid;
+}
+
+fieldset {
+  display: grid;
+  grid-gap: .5rem;
+  margin: 1rem;
+  border: 1px solid var(--accent2-colour);
+  padding: 1rem;
+}
+
+legend {
+  padding: 0.5rem;
+  color: var(--accent1-colour);
+  font-size: 1.3em;
+}
+
+label {
+  text-align: right;
+  padding-right: 1rem;
+}
+
+textarea {
+  width: 90%;
+}
+
+input,
+select,
+textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+}
+
+button {
+  margin: 1rem;
+  background-color: var(--accent2-colour);
+  color: var(--secondary-colour);
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: var(--primary-colour);
+}
+
+.form-item {
+  padding: 0.5rem;
+}
