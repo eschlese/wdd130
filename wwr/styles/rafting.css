@@ -122,7 +122,7 @@ article {
   color: black;
 }
 
-article {
+.hero article {
   top: 100px;
   position: absolute;
   border: var(--accent2-colour) solid;
@@ -294,4 +294,97 @@ button:hover {
 
 .form-item {
   padding: 0.5rem;
+}
+
+.mission {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px 2fr 1fr;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: var(--secondary-colour);
+}
+
+.mission h2 {
+  grid-column: 1 / 3;
+  text-align: center;
+}
+
+#mission-image-1 {
+  grid-column: 1;
+}
+
+#mission-image-2 {
+  grid-column: 2;
+}
+
+.mission img {
+  width: 380px;
+  height: 100%;
+  grid-row: 2;
+}
+
+.mission p {
+  grid-column: 1 / 3;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.banner article {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 300px;
+  height: 150px;
+  text-align: center;
+  background-color: var(--secondary-colour);
+  border-radius: 0.5rem;
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+}
+
+.banner article h2 {
+  text-align: center;
+  color: var(--primary-colour);
+  font-size: 1.5rem;
+  padding: 0.1rem;
+}
+
+.banner article a {
+  text-decoration: none;
+  color: var(--secondary-colour);
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  background-color: var(--accent2-colour);
+  border-radius: 0.5rem;
+}
+
+.newsletter {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  text-align: center;
+}
+
+.newsletter h2, p {
+  grid-column: 1 / 2;
+}
+
+.newsletter form {
+  grid-column: 2 / 3;
+  width: 100%;
+}
+
+.form-adventures label, input {
+  padding: 0.2rem;
 }
